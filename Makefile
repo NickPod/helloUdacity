@@ -6,7 +6,7 @@ test:
 	# add test
 	
 lint:
-	pylint --disable=R, hello.py
+	pylint --disable=R,C hello.py
 	
 all: install test lint
 	
